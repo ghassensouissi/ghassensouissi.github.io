@@ -1024,7 +1024,115 @@ section {
   }
 }
 
+/*----------------------------------------------------------------
+/* Certifications Section Styles */
+.certifications {
+  padding: 60px 0;
+}
+
+.certification-item {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+.certification-item h4 {
+  margin-bottom: 10px;
+}
+
+.certification-title {
+  font-weight: normal; /* Set the font weight to normal */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-bottom: 5px; /* Add some bottom margin for spacing */
+}
+
+.certification-wrap {
+  text-align: center; /* Center align the certification info */
+}
+.certification-title {
+  margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Social Links */
+.social-links a {
+  font-size: 24px;
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Adjustments for Specific Social Icons */
+.gmail i {
+  color: #ea4335;
+}
+
+.linkedin i {
+  color: #0e76a8;
+}
+
+.github i {
+  color: #333;
+}
+
+/* Contact Information */
+.contact-info {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/* Style for Email Link */
+.contact-info a {
+  color: #007bff; /* Set the link color */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Responsive Styles (Adjust as needed) */
+@media (max-width: 768px) {
+  .social-links {
+    margin-top: 15px;
+  }
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #050d18; /* You can adjust the background color as needed */
+  color: #fff; /* You can adjust the text color as needed */
+  padding: 10px;
+}
+
+.footer-nav a {
+  color: #fff; /* Set the color of navigation links */
+  margin: 0 10px; /* Adjust spacing between navigation links */
+  text-decoration: none; /* Remove underlines from navigation links */
+}
+
+.footer-nav a:hover {
+  text-decoration: underline; /* Add underline on hover for navigation links */
+}
+
+
+
+
+
+
 /*--------------------------------------------------------------
+ */
+ */
+ */
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
