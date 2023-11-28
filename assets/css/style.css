@@ -440,8 +440,9 @@ section {
 }
 
 .skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
+  height: 20px; /* Adjust the height as needed */
+  padding: 6px 0; /* Adjust the padding as needed */
+  margin: 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -449,13 +450,15 @@ section {
   color: #050d18;
 }
 
+
+
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: rgba(54, 126, 222, 0.54);
   height: 10px;
 }
 
@@ -463,7 +466,11 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: rgb(54, 126, 222);
+}
+
+}
+
 }
 
 /*--------------------------------------------------------------
@@ -1032,8 +1039,8 @@ section {
 
 .certification-item {
   background-color: #f8f9fa;
-  padding: 40px;
-  border-radius: 40px;
+  padding: 20px;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
@@ -1080,7 +1087,7 @@ section {
 }
 
 .github i {
-  color: #333;
+  color: #fff;
 }
 
 /* Contact Information */
